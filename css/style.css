@@ -1,0 +1,146 @@
+body, html {
+  height: 100%; 
+  margin: 0;
+  font: 15px "Lato", sans-serif;
+  color: #000000;
+}
+
+.style {
+  color: #777;
+  background-color: white;
+  text-align: center; 
+  padding: 50px 80px;
+  text-align: justify;
+  position: relative;
+}
+
+#wrap {
+  background-color: white;
+  height: 790px;
+}
+
+.left {
+float: left;
+width: 28%;
+padding-left: 370px;
+}
+
+.right {
+float: left;
+width: 28%;
+margin-left: 200px;
+}
+
+.col1 {
+  width: 28%;
+  float: left;
+  padding-left: 150px;
+ }
+
+.col2 {
+width: 28%;
+float: left;
+}
+
+.col3 {
+width: 28%;
+float: left;
+}
+
+
+.button {
+    background-color: #DBEEF9;
+    border: none;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button1 {border-radius: 12px;}
+
+.buttons {
+    background-color: #ffffff;
+    border: none;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+.button2 {border-radius: 12px;}
+
+
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  position: relative;
+  opacity: 0.65; 
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.bgimg-1 {
+  background-image: url("../images/HTD_Dental-Cleaning-Tools-184698074.jpg");
+  min-height: 100%;
+  letter-spacing: 50px;
+  text-align: center;
+
+}
+
+.bgimg-2 {
+  background-image: url("../images/light-blue-background.jpg");
+  min-height: 100px;
+}
+
+.bgimg-3 {
+  background-image: url("../images/168838.jpg");
+  min-height: 360px;
+}
+
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: #DBEEF9;
+  color: #000000;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+  text-align: center;
+  padding: 20px;
+}
+
+h4{
+  color: #000000;
+}
+ 
+img {
+  padding: 10px;
+
+}
