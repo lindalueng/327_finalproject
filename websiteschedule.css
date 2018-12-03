@@ -33,7 +33,7 @@ form {
 }
 
 .cal2018 {
-	background-image: url('../images/cal2018.png');
+	background-image: url('../schedulingimage/cal2018.png');
 	min-height: 100%;
 	position: relative;
 	background-size: cover;
