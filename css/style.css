@@ -1,7 +1,8 @@
 body, html {
   height: 100%; 
   margin: 0;
-  font: 15px "Lato", sans-serif;
+  font-family: PT serif;
+  font-size: 15px;
   color: #000000;
 }
 
@@ -50,6 +51,7 @@ float: left;
 
 .button {
     background-color: #DBEEF9;
+    font-family: PT serif;
     border: none;
     color: black;
     padding: 20px;
@@ -65,6 +67,7 @@ float: left;
 
 .buttons {
     background-color: #ffffff;
+    font-family: PT serif;
     border: none;
     color: black;
     padding: 20px;
@@ -130,7 +133,8 @@ float: left;
 h3 {
   letter-spacing: 5px;
   text-transform: uppercase;
-  font: 20px "Lato", sans-serif;
+  font: PT serif;
+  font-size: 20px;
   color: #111;
   text-align: center;
   padding: 20px;
