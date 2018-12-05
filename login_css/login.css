@@ -1,0 +1,12 @@
+body, html {
+  height: 100%; 
+  margin: 0;
+  background-color: lightblue;
+}
+
+#center {
+	position: center;
+	width: 100%;
+	padding: 50px;
+
+}
