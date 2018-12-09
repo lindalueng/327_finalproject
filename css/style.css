@@ -18,7 +18,7 @@ body, html {
   position: relative;
 }
 
-#wrap {
+#services {
   background-color: white;
   height: 5400px;
 }
@@ -29,29 +29,62 @@ width: 50%;
 padding: 10px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 600px) {
   .left, .right {
-    width: 100%;    
+    height: 100%;    
   }
 
+.dentist {
+  width: 100%;
+  float: left;
+}
+
+.hyg {
+  width: 100%;
+  float: left;
+}
+
+.assistants {
+  width: 100%;
+  float: left;
+}
+
+.recp {
+  width: 100%;
+  float: left;
+}
+
+@media screen and (min-width: 600px) {
+  .dentist, .hyg, .assistants, .recp {
+    height: 100%;
+  }
 }
 
 .col1 {
-  width: 28%;
+  width: 25%;
   float: left;
-  padding-left: 150px;
  }
 
 .col2 {
-width: 28%;
+width: 25%;
 float: left;
 }
 
 .col3 {
-width: 28%;
+width: 25%;
 float: left;
 }
 
+.col4 {
+  width: 25%;
+  float: left;
+}
+@media screen and (min-width: 600px){
+  .col1, .col2, .col3, .col4 {
+    height: 100%;
+  }
+
+}
 
 .button {
     background-color: #DBEEF9;
@@ -115,7 +148,11 @@ float: left;
   background-image: url("../images/168838.jpg");
   min-height: 370px;
 }
-
+@media screen and (min-width: 600px){
+  .bgimg-3 {
+    background-attachment: scroll;
+    min-height: 100%;
+  }
 
 .caption {
   position: absolute;
