@@ -10,24 +10,36 @@ body, html {
   color: #000000;
 }
 
+a {
+
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+}
+
 img {
   height: 200px;
   float: center;
   padding: 10px;
 }
 
+@media screen and (max-width: 600px) {
+  img {
+    height: 100%;
+    width: 100%;
+  }
+}
+
 img.resize {
-  
   height:100px; 
 }
 
-#icons {
-    background-image: url("../images/facebook_circle-512.png")>
-    background-image: url("../images/instagram-512.png")>
-    background-image: url("../images/1632537.png")>
-    background-image: url("../images/linkedin_circle-512.png")>
-    min-height: 100px;
-    float: center;
+@media screen and (max-width: 600px) {
+  img.resize {
+    height: 100%;
+  }
 }
 
 .servicesphotos {
@@ -55,22 +67,9 @@ img.resize {
 
 
 .col1, .col2, .col3, .col4 {
-  width: 32%;
+  width: 33%;
   float: left;
  }
-
- @media screen and (min-width: 800px) {
-  .col1, .col2, .col3. .col4 {
-    flex: 50%;
-    max-width: 50%;
-  }
-
-
-@media screen and (min-width: 600px){
-  .col1, .col2, .col3, .col4 {
-    height: 100%;
-    flex: 100%;
-  }
 
 .button {
     background-color: #DBEEF9;
@@ -149,8 +148,6 @@ h4{
   color: #000000;
 }
 
-}
-
 .mainNav {
         background-color: white;
         position: sticky;
@@ -188,7 +185,9 @@ h4{
       }
 
       @media screen and (max-width: 600px) {
-        .mainNav.responsive {position: relative;}
+        .mainNav.responsive {
+          position: relative;
+        }
         .mainNav.responsive .icon {
           position: absolute;
           right: 0;
@@ -202,9 +201,12 @@ h4{
         }
       }
 
-      @media only screen and (max-width: 600px) {
-  .bgimg-1, .bgimg-2, .bgimg-3 {
-    background-attachment: scroll;
+
+
+@media only screen and (max-width: 600px) {
+        .bgimg-1, .bgimg-2, .bgimg-3 {
+          background-attachment: scroll;
+          
   }
 }
 

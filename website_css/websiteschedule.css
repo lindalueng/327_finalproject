@@ -25,9 +25,14 @@ form {
 	text-align: center;
 }
 
+img {
+	width: 80%;
+	height: 80%;
+}
+
 #nav, #footer {
 	background-color: #DBEEF9;
-	padding: 70px 0;
+	padding: 20px 0;
 	margin: 5px;
 	
 }
